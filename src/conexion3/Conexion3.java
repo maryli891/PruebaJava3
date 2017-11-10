@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package conexion3;
-
+import interfaces3.Interfaz3;
+import javax.swing.JFrame;
 /**********************************************************************
  *
  *Mariane Muñoz Gonzalez
