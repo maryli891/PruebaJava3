@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package pruebajava3;
-
+import interfaces3.Interfaz3;
+import javax.swing.JFrame;
 /**********************************************************************
   *Mariane Muñoz Gonzalez
  * Fecha 10 de Noviembre 2017
@@ -12,14 +13,19 @@ package pruebajava3;
  * Programa PruebaJava3
  * Responsabilidad Clase Principal
  * 
- ***********************************************************************/
+ ***************************************************S********************/
 public class PruebaJava3 {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        Interfaz3 ventana = new Interfaz3();
+        Interfaz3 w = new Interfaz3();
+        w.setVisible(true);
+        w.setBounds(0, 0, 400, 400);
+        ventana.setTitle("Tercera Evaluacion Sumativa");
+        w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      
     }
     
 }
