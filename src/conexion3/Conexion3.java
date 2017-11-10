@@ -15,6 +15,15 @@ import javax.swing.JFrame;
  * Responsabilidad Clase Principal
  * 
  *************************************************************************/
-public class Conexion3 {
+public class Conexion3
+{
+ 
+  public static void main(String[] args) 
+    {
+        Interfaz3 w = new Interfaz3();
+        w.setVisible(true);
+        w.setBounds(0, 0, 400, 400);
+        w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }  
     
 }
