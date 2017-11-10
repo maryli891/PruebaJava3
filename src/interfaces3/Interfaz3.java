@@ -27,4 +27,33 @@ public class Interfaz3 extends JFrame
  JButton boton2;
  
  ConexionBD con;
+ 
+ public Interfaz3()
+ {
+   panel = new JPanel();
+  label = new JLabel();
+  text = new JTextField (20);
+  boton1 = new JButton();
+  boton2 = new JButton();
+  
+  this.add(panel);
+  panel.add(label);
+  panel.add(text);
+  panel.add(boton1);
+  panel.add(boton2);
+  
+  label.setText("Base de Datos");
+  boton1.setText("Conectar");
+  boton2.setText("Desconectar");
+  panel.setBackground(Color.GREEN);
+     
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 }
+
