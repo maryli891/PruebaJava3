@@ -5,10 +5,19 @@
  */
 package interfaces3;
 
-/**
- *
+import javax.swing.*;
+import java.awt.*;
+
+import bd.ConexionBD;
+import java.sql.Connection;
+import java.awt.event.*;
+/***********************************************************************
+ * Mariane Muñoz Gonzalez
+ * Fecha 10 de Noviembre 2017
  * @author LC22
- */
+ * Programa Interfaz3
+ * Responsabilidad Interfaz grafica
+ ***********************************************************************/
 public class Interfaz3 {
     
 }

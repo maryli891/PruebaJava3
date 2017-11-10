@@ -9,8 +9,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 /**
- *
- * @author sala306
+ * Mariane Muñoz Gonzalez
+ * Fecha 10 de Noviembre 2017
+ * @author LC22
+ * Clase ConexionBD
+ * Responsabilidad Conexion BD
  */
 public class ConexionBD 
 {

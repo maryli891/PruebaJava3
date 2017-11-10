@@ -5,10 +5,15 @@
  */
 package conexion3;
 
-/**
+/**********************************************************************
  *
+ *Mariane Muñoz Gonzalez
+ * Fecha 10 de Noviembre 2017
  * @author LC22
- */
+ * Programa Conexion3
+ * Responsabilidad Clase Principal
+ * 
+ *************************************************************************/
 public class Conexion3 {
     
 }
