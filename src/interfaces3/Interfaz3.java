@@ -18,6 +18,13 @@ import java.awt.event.*;
  * Programa Interfaz3
  * Responsabilidad Interfaz grafica
  ***********************************************************************/
-public class Interfaz3 {
-    
+public class Interfaz3 extends JFrame  
+{
+ JPanel panel;
+ JLabel label;
+ JTextField text;
+ JButton boton1;
+ JButton boton2;
+ 
+ ConexionBD con;
 }
