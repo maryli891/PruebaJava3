@@ -20,11 +20,11 @@ public class PruebaJava3 {
     public static void main(String[] args) {
        
         Interfaz3 ventana = new Interfaz3();
-        Interfaz3 w = new Interfaz3();
-        w.setVisible(true);
-        w.setBounds(0, 0, 400, 400);
+        
+        ventana.setVisible(true);
+        ventana.setBounds(0, 0, 400, 400);
         ventana.setTitle("Tercera Evaluacion Sumativa");
-        w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       
     }
     
