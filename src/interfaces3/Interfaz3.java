@@ -46,7 +46,23 @@ public class Interfaz3 extends JFrame
   boton1.setText("Conectar");
   boton2.setText("Desconectar");
   panel.setBackground(Color.GREEN);
-     
+  
+  boton1.addActionListener(new ActionListener()
+          {
+      public void actionPerformed(ActionEvent evt)
+      {
+       con = new ConexionBD();
+       Connection reg = con.conectar();
+      }
+  });
+  
+   boton2.addActionListener(new ActionListener()
+  {
+      public void actionPerformed(ActionEvent evt)
+      {
+      con.desconectar();
+      }
+  });
  }
  
  
